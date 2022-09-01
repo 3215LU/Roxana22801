@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>Roxana Benicio</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <ul class="bg-secondary nav justify-content-center">
+            
+                <li class="nav-item">
+                  <a id="textHome" class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a id="textMi"class="nav-link" href="#mi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a id="textClima" class="nav-link" href="#clima">Clima</a>
+                </li>
+              </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>HOLA!! SOY ROXANA BENICIO</h2>
+        
+        <p><b>Me encanta la programación...</b>, me encanta hacer cursos de varios temas relacionado a la programción,
+            electronica, electricidad. </p>
+            <br>
+        <p>Unos de los proyectos reciente que mas me gusto fue uno en el que utilice API para colocar clima del lugar donde 
+                se realizaria el evento</p>
+            <img src="./img/vino.JPG" alt="">
+            <img src="./img/clima.JPG" alt="">
+        <br>
+        <br>        
+        <p>Me encanta la pileta, el agua , el aire libre, sería ideal que en ARGENTINA crearan bibliotecas al aire libre,
+            osea un lugar silencioso donde se pueda leer
+        </p>
+    </section>
+    <section id="mi">
+        <h1>SOBRE MI</h1>
+        <h2>Algunas paginas creadas en codo a codo en el pirmer curso que hice</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+        </div>    
+    </section>
+    <section>
+        <section id="seccionClima">
+            <div id="titulo">
+              <h2>Así está el clima en en JUJUY!</h2>
+            </div>
+    
+            <div id="contenedor">
+      
+              <div id="datosClima">
+                  <p class="textoClima"><b>TEMPERATURA: </b><p id="tValor"></p></p>
+                  <p class="textoClima"><b>DESCRIPCIÓN: </b><p id="descripcion"></p></p>
+                  <p class="textoClima"><b>VIENTOS: </b> <p id="vientos"></p></p>
+                  <p class="textoClima"><b>HUMEDAD: </b> <p id="humedad"></p></p>
+              </div>
+              <div id="iconoClima">
+                  <h6 id="ubicacion"></h6>
+                  <img id="svgAnimado" src="" alt="" height="128" width="128">
+              </div>
+              
+          </div>    
+        </section>
+    </section>
+    
+    <footer id="pie" class="">
+      <br>
+        <div></div>
+        <div>ROXANA BENICIO</div>
+        <div></div>
+        <br>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
